@@ -5,7 +5,7 @@ import os
 import datetime
 import webserver
 
-token = os.environ('TOKEN')
+token = os.environ['TOKEN']
 
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
 intents = discord.Intents.default()
