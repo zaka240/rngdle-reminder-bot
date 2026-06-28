@@ -4,7 +4,9 @@ import logging
 import os
 import datetime
 import webserver
+from dotenv import load_dotenv
 
+load_dotenv()
 token = os.environ['TOKEN']
 
 handler = logging.FileHandler(filename='discord.log', encoding='utf-8', mode='w')
