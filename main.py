@@ -122,4 +122,4 @@ async def send_reminder():
 
     
 webserver.keep_alive()
-bot.run(token, log_handler=handler, log_level=logging.DEBUG)
+bot.run(token)
